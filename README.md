@@ -72,21 +72,19 @@ Bir not silindiğinde:
   { "id": 2, "content": "Node.js öğreniyorum!" }
 ]
 
-package.json (Otomatik Oluşacak İçerik)
+package.json 
 
 {
-  "name": "nodejs-notlar-uygulamasi",
+  "name": "nodefs.notes",
   "version": "1.0.0",
-  "description": "Node.js ile not ekleme, listeleme ve silme işlemleri yapan CLI uygulaması.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["nodejs", "cli", "fs", "notlar"],
-  "author": "Senin İsmin",
-  "license": "MIT",
-  "dependencies": {}
+  "keywords": [],
+  "author": "Sevim Nur Öztürk",
+  "license": "ISC",
+  "description": "Node.js ile not ekleme, listeleme ve silme işlemleri yapan CLI uygulaması."
 }
 
 📌 Hata Yönetimi
